@@ -47,7 +47,7 @@ variable "static_columns" {
 
 variable "ttl_status" {
   type        = string
-  default     = "DISABLED"
+  default     = "ENABLED"
 }
 
 variable "read_capacity_units" {
